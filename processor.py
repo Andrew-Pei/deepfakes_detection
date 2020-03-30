@@ -18,9 +18,6 @@ def process_image(image, target_shape):
     # Turn it into numpy, normalize and return.
     img_arr = img_to_array(image1)
     #str1="/mnt/pic/"+image[31:]
-    
-    
-    #cv2.imwrite(str1, img_arr)
 
     #if count < 10:
     #    count+=1
