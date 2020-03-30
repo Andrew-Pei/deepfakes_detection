@@ -33,7 +33,6 @@ def threadsafe_generator(func):
 
 class DataSet():
 
-
     def __init__(self, trainTxtFile='data/ucfTrainTestlist/3d_conv_train_data.txt', testTextFile='data/ucfTrainTestlist/3d_conv_test_data.txt', seq_length=10, class_limit=None, image_shape=(360, 360, 3)):
         """Constructor.
         seq_length = (int) the number of frames to consider
