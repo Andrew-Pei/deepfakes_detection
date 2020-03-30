@@ -19,10 +19,6 @@ from keras.applications.xception import Xception
 import tensorflow as tf
 
 from efficientnet.keras import EfficientNetB4  #jzk加
-
-
-#from resnet import *
-
 import sys
 
 def spatial_pyramid_pooling(input, levels):
