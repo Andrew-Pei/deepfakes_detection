@@ -11,15 +11,11 @@ data.py: data process module.
 ## Requirements:
 My code runs in this environment：
 
-`ubuntu 16.04.6`
-
-`nvidia-docker 19.03.4`  
-
-`tensorflow 2.1` 
-
-`keras 2.3.1` 
-
-`python 3.6`
+`ubuntu 16.04.6
+nvidia-docker 19.03.4
+tensorflow 2.1
+keras 2.3.1
+python 3.6`
 
 in other environments, I am not sure if it can run successfully
 
