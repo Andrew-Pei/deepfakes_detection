@@ -154,7 +154,7 @@ def get_data_loader(DataJson,steps_per_epoch):
         final_y = np.array(final_y)
         yield final_X, final_y 
 
-#-----------到这里都是军治哥torch下的结构-----------
+#-----------到这里都是torch下的结构-----------
 
 def myIter(batch_size, tfRec):  
     dataset = tf.data.TFRecordDataset(tfRec)  #  
