@@ -41,7 +41,7 @@ def parse_function(example_proto):
     
 
 
-#军治哥新数据集读取方式
+#新数据集读取方式
 res_size = 224 
 batch_size = 16
 
