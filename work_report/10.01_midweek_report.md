@@ -1,0 +1,7 @@
+1.通过更换lr_scheduler为StepLR解决了之前跑到第十个epoch停止的问题。
+
+2.经过100个epoch之后的结果：
+
+LOSS: 0.9056	ACCU: 0.5385	REAL_CORRECT: 0.5475	FAKE_CORRECT: 0.5323
+
+从得到的实验结果来看，loss下降空间还比较大，模型对于real和fake的视频有了一定的区分能力。还需要通过fine tuning进一步提升模型能力。
